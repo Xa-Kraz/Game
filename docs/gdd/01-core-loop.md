@@ -1,31 +1,33 @@
 ---
 type: gdd-core-loop
 version: 0.1
-date: [วันที่]
+date: 7/7/2026
 ---
-
-# [ชื่อเกม] — Core Loop & Gameplay
+# [Mizar's Tavern] — Core Loop & Gameplay
 
 ## Core Loop
+
 ```mermaid
 flowchart LR
-    A[เริ่มต้น] --> B[Action หลัก]
-    B --> C[ผลลัพธ์]
-    C --> D[Reward / Consequence]
+    A[เริ่มต้น] --> B[เปิดโรงเตี้ยม]
+    B --> C[รับลูกค้า]
+    C --> D[จบวัน]
     D --> B
 ```
 
 ## Core Mechanics
-1. [Mechanic หลักที่ 1 — อธิบายสั้น ๆ]
-2. [Mechanic หลักที่ 2]
+
+1. การพูดคุยกับลูกค้าแต่ล่ะคนที่จะมีเนื้อเรื่องของตนเองและระบบความสัมพันธ์
+2. การจัดการสินค้าหลังร้านและEvent ที่จะส่งผลกับสินค้าในร้าน
+3. Minigame ทำอาหาร
 
 ## Controls
-| Key | Action |
-|---|---|
-| ← → | Move |
-| Space | Jump |
-| [อื่นๆ] | [action] |
+
+| Key   | Action   |
+| ----- | -------- |
+| Mouse | interact |
 
 ## Win / Lose Condition
-- **ชนะเมื่อ:** [เงื่อนไข]
-- **แพ้เมื่อ:** [เงื่อนไข]
+
+- **ชนะเมื่อ:** เมื่อขายจบวันได้กำไร
+- **แพ้เมื่อ:** เงินหมดล้มละลาย
