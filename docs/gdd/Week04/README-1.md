@@ -3,7 +3,7 @@ type: doc-index
 version: 0.1
 date: [วันที่]
 ---
-# [ชื่อเกม] — Documentation Index
+# [Human Resouce] — Documentation Index
 
 ## 📖 เอกสารในโปรเจกต์นี้
 
@@ -40,9 +40,9 @@ date: [วันที่]
 
 ## 📁 ใครดูแลส่วนไหน
 
-| คนที่ | รับผิดชอบ  | โฟลเดอร์ staging                |
-| ---------- | ------------------- | --------------------------------------- |
-| 1          | Sprites / Textures  | `docs/02_Assets/_candidates/sprites/` |
-| 2          | Sound Effects (SFX) | `docs/02_Assets/_candidates/sfx/`     |
-| 3          | Music / BGM         | `docs/02_Assets/_candidates/music/`   |
-| 4          | Fonts + Data        | `docs/02_Assets/_candidates/fonts/`   |
+| คนที่  | รับผิดชอบ  | โฟลเดอร์ staging                |
+| ----------- | ------------------- | --------------------------------------- |
+| 1[124,150]  | Sprites / Textures  | `docs/02_Assets/_candidates/sprites/` |
+| 2 [105]     | Sound Effects (SFX) | `docs/02_Assets/_candidates/sfx/`     |
+| 3 [105]     | Music / BGM         | `docs/02_Assets/_candidates/music/`   |
+| 4 [124,150] | Fonts + Data        | `docs/02_Assets/_candidates/fonts/`   |
