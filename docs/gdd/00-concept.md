@@ -4,7 +4,7 @@ version: 0.1
 date: [07/07/2026]
 team: [kitthathon 105, nawasorn 124, sukit 149, hatsawat 150]
 ---
-# [Mizar's Tavern] — Game Concept
+# [Mizar's TavernMizar's Taver] — Game Concept
 
 ## Elevator Pitch
 
