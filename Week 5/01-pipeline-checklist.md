@@ -1,41 +1,45 @@
 ---
 type: jam-pipeline
 version: 0.1
-date: [วันที่]
-team: [ชื่อทีม]
+date: [21/7/2026]
+team: [Alpodite]
 ---
-
 # Pipeline Function Checklist — [ชื่อเกม]
 
 > เกมทุกแนวต้องมี pipeline ขั้นต่ำนี้ก่อนถึงจะเรียกว่า "เล่นได้" — เติมชื่อผู้รับผิดชอบและติ๊กสถานะระหว่างลงมือทำจริง เพิ่มแถวได้ถ้าเกมของทีมต้องการ module อื่น
 
 ## Must-Have (ต้องมีก่อน Hour 24 — Playable Build)
 
-| Module (ตาม MonoGame Game Loop) | หน้าที่ | สถานะ | ผู้รับผิดชอบ |
-|---|---|---|---|
-| `GameStateManager` | สลับ state (Menu / Playing / Pause / GameOver) | 🔲 Not Started | [ชื่อ] |
-| `InputManager` | รับ input keyboard/gamepad แบบรวมศูนย์ | 🔲 Not Started | [ชื่อ] |
-| Core `Update()` logic ของกลไกหลัก | logic ของ core mechanic 1 อย่างที่เป็นหัวใจเกม | 🔲 Not Started | [ชื่อ] |
-| Collision / interaction พื้นฐาน | ตรวจชน/ตรวจ trigger ระหว่าง entity | 🔲 Not Started | [ชื่อ] |
-| `SpriteBatch` render + camera/viewport | วาดผ่าน `GraphicsDevice.Viewport` (ห้าม hardcode resolution) | 🔲 Not Started | [ชื่อ] |
-| Win / Lose condition | เงื่อนไขจบเกม/จบด่าน | 🔲 Not Started | [ชื่อ] |
-| Content pipeline (MGCB) | โหลด asset ผ่าน `Content.Load<T>()` เท่านั้น | 🔲 Not Started | [ชื่อ] |
-| [module เพิ่มเติมของเกมนี้] | | 🔲 Not Started | [ชื่อ] |
+| Module (ตาม MonoGame Game Loop)             | หน้าที่                                                                                                                                                                                                                                                                                          | สถานะ     | ผู้รับผิดชอบ |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------ |
+| `GameStateManager`                           | สลับ state ของ 5 เฟสเกม (Email → Interview → Work → Upgrade → Summary) + Menu/Pause/GameOver, เก็บ day counter                                                                                                                                                                     | 🔲 Not Started | 105, 126, 149            |
+| `InputManager`                               | รับ input แบบรวมๆกัน เกมนี้เป็นแนวๆ mouse/UI-driven เกือบหมด (คลิกเลือกอีเมล, คลิกผู้สมัคร, คลิกไอคอนแผนก, คลิกปุ่มอัพเกรด) + คีย์บอร์ดสำหรับคีย์ลัดหรือปุ่ม interact ต่างๆ | 🔲 Not Started | 105, 126, 149            |
+| Core `Update()` logic ของกลไกหลัก | Logic เฟสสัมภาษณ์: ลำดับผู้สมัคร 3 คนมาแบบสุ่ม, ระบบรับ/ปฏิเสธทีละคน, บังคับรับคนที่ 3 เสมอ                                                                                                                                     | 🔲 Not Started | 126                      |
+| Collision / interaction พื้นฐาน         | เกมไม่เพราะเกมเป็น 2d interact ที่ไม่ใช้ระบบ physic เลย                                                                                                                                                                                                               | 🔲 Not Started | 105, 126, 149            |
+| `SpriteBatch` render + camera/viewport       | วาดทุกฉาก (อีเมล/สัมภาษณ์/มอนิเตอร์ทำงาน/อัพเกรด/สรุปวัน) ผ่าน `GraphicsDevice.Viewport` หรือโปรแกรมภายนอก แล้วค่อยยัดเข้า hardcode resolution เพราะมีหลายฉากสลับกัน                      | 🔲 Not Started | 124, 150                 |
+| Win / Lose condition                           | Win Cons = เก็บ quota ของแต่ละวันแล้วผ่านวันไปเรื่อยๆจนบรรลุเป้าหมายใหญ่สุดของเกม / Lose Cons = เจอ Event ต่างๆ หรือบริษัทพังก่อนจะทำเป้าหมายสำเร็จ                                           | 🔲 Not Started | 126                      |
+| Content pipeline (MGCB)                        | โหลดภาพนิ่ง/อาร์ต/ตัวละคร/ไอคอน/เสียง ผ่าน `Content.Load<T>()` เท่านั้น                                                                                                                                                                                  | 🔲 Not Started | 126                      |
+| EmailInboxSystem                               | แสดงรายการอีเมลผู้สมัคร, ให้ผู้เล่นเลือก 3 คน                                                                                                                                                                                                                   | 🔲 Not Started | 126                      |
+| CandidateEmployeeDataModel                     | ข้อมูลตัวละคร candidate/employee (stat, ประวัติ, ความเหมาะกับแผนก, flag ปกติ/ผิดปกติ)                                                                                                                                                                   | 🔲 Not Started | 126                      |
+| WorkPhaseQuotaSystem                           | สะสมแต้ม/โควต้าตามเวลา, ยิง event ภาพ/ข้อความสยองเป็นระยะจากแต่ละแผนก                                                                                                                                                                         | 🔲 Not Started | 149                      |
+| DaySummaryScreen                               | สรุปเหตุการณ์ประจำวัน, +1 day counter, วนกลับไป Email phase                                                                                                                                                                                                                | 🔲 Not Started | 105                      |
 
 ## Nice-to-Have (ทำถ้าเหลือเวลา — Hour 24–34)
 
-| Module | หน้าที่ | สถานะ | ผู้รับผิดชอบ |
-|---|---|---|---|
-| `AudioManager` (SFX พื้นฐาน) | เสียงตอบสนอง action หลัก | 🔲 Not Started | [ชื่อ] |
-| UI/HUD (score, timer) | แสดงสถานะระหว่างเล่น | 🔲 Not Started | [ชื่อ] |
-| Music / เพลงประกอบ | | 🔲 Not Started | [ชื่อ] |
-| [feature รองอื่นๆ] | | 🔲 Not Started | [ชื่อ] |
+| Module                                                                                                                           | หน้าที่                                                                                                                          | สถานะ     | ผู้รับผิดชอบ |
+| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------ |
+| Art หรือ Animation เพิ่มเติมสำหรับ stage ทำงาน                                                           | เมื่อมี Event Mail ส่งมา่ หรือตอบสนองต่อ action                                                              | 🔲 Not Started | 124, 150                 |
+| เพิ่ม Mechanic ที่ทำให้เกมมีมิติและมีอะไรใหทำมากขึ้น                                   | Mechanic ตอนทำงาน และระหว่างเล่น                                                                                  | 🔲 Not Started | 105, 126, 149            |
+| ปุ่มโต้ตอบกับสื่อสยอง (รับรอง/รายงาน/เก็บเงียบ)                                        | (รับรอง/รายงาน/เก็บเงียบ)เพิ่ม interactivity ให้เฟสทำงานที่ตอนนี้ค่อนข้าง passive | 🔲 Not Started | 149, 105                 |
+| ระบบสุ่มความแปลกหลายแบบในสัมภาษณ์ (ไม่ใช่แค่ไฟกระพริบ/หน้าเปลี่ยน) | เพิ่มความหลากหลาย ลดการเดา pattern ของผู้เล่น                                                        | 🔲 Not Started | 105                      |
+| เสียงพากย์ของแต่ละตัวละคร                                                                               | ตัวละครพูดแล้วมีเสียงพากย์                                                                                    | 🔲 Not Started | ทุกคน               |
+| ระบบ Upgrade แบบคร่าวๆ                                                                                              | ถ้าเวลาเหลือค่อยเปิดใช้ ไม่ผูกกับ core loop ตอนแรก                                                | 🔲 Not Started | 149                      |
 
 ## Cut-List (ตัดทิ้งก่อนถ้าเวลาไม่พอ — ห้ามเริ่มก่อน Must-Have เสร็จ)
 
-- ❌ Save/Load
-- ❌ Settings menu
-- ❌ Leaderboard
-- ❌ [feature อื่นที่ทีมตกลงตัดก่อน]
+- ❌ ระบบ Upgrade (เต็มรูปแบบ)
+- ❌ ระบบยิบย่อย ไม่ให้มีอะไรเยอะเกินไป
+- ❌ Animation หลายๆเฟรม เพราะจะทำไม่ทัน ทำแค่เฟรมสองเฟรม
+- ❌ ระบบ invasion ที่จะมีคนมาบุกบริษัท
 
 > เมื่อถึง **Feature Freeze (Hour 34)** ทุก module ในตารางนี้ต้องมีสถานะ ✅ Done หรือถูกย้ายไป Cut-List อย่างชัดเจน — ห้ามค้างเป็น 🔲/🟡
