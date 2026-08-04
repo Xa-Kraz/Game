@@ -1,47 +1,46 @@
 ---
 type: doc-index
 version: 0.1
-date: [วันที่]
-team: [ชื่อทีม]
+date: [21/7/69]
+team: [Alpodite]
 ---
-
-# [ชื่อทีม] — Game Jam Docs Index
+# [Alphodite] — Game Jam Docs Index
 
 เอกสารชุดนี้คัดลอกมาจาก template ในหัวข้ออภิปราย [Lab Discussion 05: Game Jam Prep](../lab_discussion_05-game_jam_prep.md) — ใช้เป็นศูนย์กลางติดตามงานตลอด 48 ชั่วโมงของ Game Jam วางไฟล์ไว้ที่ `docs/03_GameJam/` ของ repo ทีม และ pin ไฟล์นี้ไว้ให้ทุกคนเปิดดูได้ตลอดเวลา
 
 ## 👥 ข้อมูลทีม
 
-| หัวข้อ | รายละเอียด |
-|---|---|
-| ชื่อทีม / โปรเจกต์ | [ชื่อทีม] |
-| สมาชิก (ชื่อ–รหัส, 4 คน) | [ชื่อ 1], [ชื่อ 2], [ชื่อ 3], [ชื่อ 4] |
-| ผู้ดูแล timeline (Time Keeper) | [ชื่อ] |
-| Repo หลัก | [ลิงก์ repo] |
-| เวลาที่ Jam เริ่มจริง (วันศุกร์) | [วัน-เวลา] |
-| เวลาที่ Jam ต้องส่งงาน (Hour 48) | [วัน-เวลา] |
+| หัวข้อ                                             | รายละเอียด                                                                                                                                                                                     |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ชื่อทีม / โปรเจกต์                        | Alphodite                                                                                                                                                                                                |
+| สมาชิก (ชื่อ–รหัส, 4 คน)                | 1.กิตธน ลงอ่อน 105<br />2.นวสรณ์ เถาตระกูล 124<br />3.ปรมินทร์ ศรีสิทธิ์ 126<br />4.สุกฤษฎิ์ โสภา 149<br />5.หัสวรรษ ต๊ะปัญญา 150 |
+| ผู้ดูแล timeline (Time Keeper)                    | กิตธน ลงอ่อน 105                                                                                                                                                                              |
+| Repo หลัก                                            | -                                                                                                                                                                                                        |
+| เวลาที่ Jam เริ่มจริง (วันศุกร์) | [24/7/69] [16.00]                                                                                                                                                                                        |
+| เวลาที่ Jam ต้องส่งงาน (Hour 48)        | [26/7/69] [16.00]                                                                                                                                                                                        |
 
 > Time Keeper และเวลาเริ่ม/จบ ต้องตรงกับที่กรอกใน [00-timeline.md](00-timeline.md) — แก้ที่นี่แล้วอย่าลืมแก้ที่นั่นด้วย
 
 ## 📖 เอกสารในโปรเจกต์นี้
 
-| ไฟล์ | เนื้อหา | สถานะ |
-|---|---|---|
-| [00-timeline.md](00-timeline.md) | Timeline 48 ชม. + checkpoint + Gantt chart | 🔲 |
-| [01-pipeline-checklist.md](01-pipeline-checklist.md) | Must-have / nice-to-have / cut-list ของ pipeline function | 🔲 |
-| [02-roles.md](02-roles.md) | แบ่งความรับผิดชอบตาม module + file ownership rule | 🔲 |
-| [03-workflow-rules.md](03-workflow-rules.md) | Branching, commit convention, merge conflict rule | 🔲 |
+| ไฟล์                                          | เนื้อหา                                                        | สถานะ |
+| ------------------------------------------------- | --------------------------------------------------------------------- | ---------- |
+| [00-timeline.md](00-timeline.md)                     | Timeline 48 ชม. + checkpoint + Gantt chart                          | 🔲         |
+| [01-pipeline-checklist.md](01-pipeline-checklist.md) | Must-have / nice-to-have / cut-list ของ pipeline function          | 🔲         |
+| [02-roles.md](02-roles.md)                           | แบ่งความรับผิดชอบตาม module + file ownership rule | 🔲         |
+| [03-workflow-rules.md](03-workflow-rules.md)         | Branching, commit convention, merge conflict rule                     | 🔲         |
 
 ## ⚡ Quick Reference (เปิดดูตอนตัดสินใจด่วน)
 
-| ต้องการ... | ไปที่ไฟล์ |
-|---|---|
-| เช็คว่าตอนนี้อยู่ Phase ไหน / ช้ากว่าแผนไหม | [00-timeline.md](00-timeline.md) |
+| ต้องการ...                                                                          | ไปที่ไฟล์                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------- |
+| เช็คว่าตอนนี้อยู่ Phase ไหน / ช้ากว่าแผนไหม               | [00-timeline.md](00-timeline.md)                     |
 | เช็คว่า feature นี้ต้องทำก่อนหรือทีหลัง / ตัดได้ไหม | [01-pipeline-checklist.md](01-pipeline-checklist.md) |
-| เช็คว่าใครรับผิดชอบไฟล์/module นี้ | [02-roles.md](02-roles.md) |
-| เจอ merge conflict ต้องทำยังไง | [03-workflow-rules.md](03-workflow-rules.md) |
+| เช็คว่าใครรับผิดชอบไฟล์/module นี้                               | [02-roles.md](02-roles.md)                           |
+| เจอ merge conflict ต้องทำยังไง                                               | [03-workflow-rules.md](03-workflow-rules.md)         |
 
 ## 🔒 กติกาที่ห้ามลืม
 
 - **Feature Freeze ที่ Hour 34** — ห้ามเพิ่ม feature ใหม่หลังจุดนี้เด็ดขาด
-- **Time Keeper คือ [ชื่อ]** — มีสิทธิ์ตัดสินใจ cut scope เมื่อทีมช้ากว่าแผน
+- **Time Keeper คือ [กิตธน ลงอ่อน 105]** — มีสิทธิ์ตัดสินใจ cut scope เมื่อทีมช้ากว่าแผน
 - ปิด Phase แล้วต้องอัปเดตสถานะใน [00-timeline.md](00-timeline.md) ทันที ไม่ปล่อยค้าง
