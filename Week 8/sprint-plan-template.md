@@ -53,18 +53,26 @@
 
 ### Story 4 — [Asset Sound & Music]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [Song 1]  [126]  [4]  [🔄 In Progress]
+- [ ] [Song 2]  [126]  [4]  [🔲 Todo]
+- [ ] [Song 3]  [126]  [4]  [🔲 Todo]
+- [ ] [Song 4]  [126]  [4]  [🔲 Todo]
 
 ### Story 5 — [Sprite ของนักดนตรี(ตัวละคร)]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [Musician 1]  [124]  [2]  [🔲 Todo]
+- [ ] [Musician 2]  [124]  [2]  [🔲 Todo]
+- [ ] [Musician 3]  [124]  [2]  [🔲 Todo]
+- [ ] [Musician 4]  [150]  [2]  [🔲 Todo]
+- [ ] [Musician 5]  [150]  [2]  [🔲 Todo]
+- [ ] [Musician 6]  [150]  [2]  [🔲 Todo]
 
 ### Story 6 — [Art ในเกม]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [BG]  [150]  [3]  [🔄 In Progress]
+- [ ] [dmg bar]  [124]  [3]  [🔄 In Progress]
+- [ ] [ui]  [150]  [3]  [🔄 In Progress]
+- [ ] [note]  [124]  [3]  [🔄 In Progress]
 
 ---
 
