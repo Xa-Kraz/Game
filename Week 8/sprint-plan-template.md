@@ -38,18 +38,25 @@
 
 ### Story 1 — [ระบบนับจังหวะ 8 ช่องแบบเมโทรโนม]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [การนับคะแนน 8 ช่อง]  [owner:: 105]  [estimate:: 3]  [status::✅ Done]
+- [ ] [การหาผลต่าง]  [owner:: 105]  [estimate:: 3]  [status:: ✅ Done]
+- [ ] [การเติมจังหวะในแต่ละช่อง]  [owner:: 105]  [estimate:: 3]  [status::✅ Done]
+- [ ] [การนับช่อง 8 ช่อง]  [owner:: 105]  [estimate:: 3]  [status:: ✅ Done]
+- [ ] [การดึงโค้ดมาจากclass การวางตัวละคร]  [owner:: 105]  [estimate:: 3]  [status:: 🔄 In Progress]
 
 ### Story 2 — [ระบบดันคะแนนที่อิงจาก 8 ช่อง]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [การดึงโค้ดมาจากclass ระบบดันคะแนนที่อิงจาก 8 ช่อง]  [owner:: 149]  [estimate:: 2]  [status:: ✅ Done]
+- [ ] [ดันกันจนมีฝ่ายใดฝ่ายหนึ่งชนะ]  [owner:: 149]  [estimate:: 2]  [status:: ✅ Done]
 
 ### Story 3 — [การวางตัวละคร]
 
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
-- [ ] [Task ย่อย]  [owner:: ชื่อ]  [estimate:: Nh]  [status:: todo]
+- [ ] [ตัวละครเครื่องสาย]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครเครื่องตี]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครเครื่องเป่า]  [owner:: 105.149]  [estimate:: 4]  [status::🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่1]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่2]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่3]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
 
 ### Story 4 — [Asset Sound & Music]
 
@@ -80,8 +87,8 @@
 
 ### [วันที่]
 
-**เมื่อวาน:** ...
-**วันนี้:** ...
+**เมื่อวาน:** ...การดึงโค้ดมาจากclass ระบบดันคะแนนที่อิงจาก 8 ช่อง
+**วันนี้:** ...การดึงโค้ดมาจากclass การวางตัวละคร
 **Blocked:** ...
 
 ---
