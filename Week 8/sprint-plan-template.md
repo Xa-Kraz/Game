@@ -38,48 +38,48 @@
 
 ### Story 1 — [ระบบนับจังหวะ 8 ช่องแบบเมโทรโนม]
 
-- [ ] [การนับคะแนน 8 ช่อง]  [owner:: 105]  [estimate:: 3]  [status::✅ Done]
-- [ ] [การหาผลต่าง]  [owner:: 105]  [estimate:: 3]  [status:: ✅ Done]
-- [ ] [การเติมจังหวะในแต่ละช่อง]  [owner:: 105]  [estimate:: 3]  [status::✅ Done]
-- [ ] [การนับช่อง 8 ช่อง]  [owner:: 105]  [estimate:: 3]  [status:: ✅ Done]
-- [ ] [การดึงโค้ดมาจากclass การวางตัวละคร]  [owner:: 105]  [estimate:: 3]  [status:: 🔄 In Progress]
+- [ ] [การนับคะแนน 8 ช่อง]  [owner:: 105] [domain:: programmer]  [estimate:: 3] [status::✅ Done]
+- [ ] [การหาผลต่าง]  [owner:: 105] [domain:: programmer]  [estimate:: 3] [status:: ✅ Done]
+- [ ] [การเติมจังหวะในแต่ละช่อง]  [owner:: 105] [domain:: programmer] [estimate:: 3]  [status::✅ Done]
+- [ ] [การนับช่อง 8 ช่อง]  [owner:: 105] [domain:: programmer]  [estimate:: 3] [status:: ✅ Done]
+- [ ] [การดึงโค้ดมาจากclass การวางตัวละคร]  [owner:: 105] [domain:: programmer] [estimate:: 3]  [status:: 🔄 In Progress]
 
 ### Story 2 — [ระบบดันคะแนนที่อิงจาก 8 ช่อง]
 
-- [ ] [การดึงโค้ดมาจากclass ระบบดันคะแนนที่อิงจาก 8 ช่อง]  [owner:: 149]  [estimate:: 2]  [status:: ✅ Done]
-- [ ] [ดันกันจนมีฝ่ายใดฝ่ายหนึ่งชนะ]  [owner:: 149]  [estimate:: 2]  [status:: ✅ Done]
+- [ ] [การดึงโค้ดมาจากclass ระบบดันคะแนนที่อิงจาก 8 ช่อง]  [owner:: 149] [domain:: programmer] [estimate:: 2]  [status:: ✅ Done]
+- [ ] [ดันกันจนมีฝ่ายใดฝ่ายหนึ่งชนะ]  [owner:: 149] [domain:: programmer] [estimate:: 2]  [status:: ✅ Done]
 
 ### Story 3 — [การวางตัวละคร]
 
-- [ ] [ตัวละครเครื่องสาย]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
-- [ ] [ตัวละครเครื่องตี]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
-- [ ] [ตัวละครเครื่องเป่า]  [owner:: 105.149]  [estimate:: 4]  [status::🔲 Todo]
-- [ ] [ตัวละครจาดวรรฒนธรรมที่1]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
-- [ ] [ตัวละครจาดวรรฒนธรรมที่2]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
-- [ ] [ตัวละครจาดวรรฒนธรรมที่3]  [owner:: 105.149]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครเครื่องสาย]  [owner:: 105.149] [domain:: programmer] [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครเครื่องตี]  [owner:: 105.149] [domain:: programmer] [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครเครื่องเป่า]  [owner:: 105.149] [domain:: programmer] [estimate:: 4]  [status::🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่1]  [owner:: 105.149] [domain:: programmer]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่2]  [owner:: 105.149] [domain:: programmer]  [estimate:: 4]  [status:: 🔲 Todo]
+- [ ] [ตัวละครจาดวรรฒนธรรมที่3]  [owner:: 105.149] [domain:: programmer]  [estimate:: 4]  [status:: 🔲 Todo]
 
 ### Story 4 — [Asset Sound & Music]
 
-- [ ] [Song 1]  [126]  [4]  [🔄 In Progress]
-- [ ] [Song 2]  [126]  [4]  [🔲 Todo]
-- [ ] [Song 3]  [126]  [4]  [🔲 Todo]
-- [ ] [Song 4]  [126]  [4]  [🔲 Todo]
+- [ ] [Song 1]  [126] [domain:: Artist] [4]  [🔄 In Progress]
+- [ ] [Song 2]  [126] [domain:: Artist [4]  [🔲 Todo]
+- [ ] [Song 3]  [126] [domain:: Artist [4]  [🔲 Todo]
+- [ ] [Song 4]  [126] [domain:: Artist [4]  [🔲 Todo]
 
 ### Story 5 — [Sprite ของนักดนตรี(ตัวละคร)]
 
-- [ ] [Musician 1]  [124]  [2]  [🔲 Todo]
-- [ ] [Musician 2]  [124]  [2]  [🔲 Todo]
-- [ ] [Musician 3]  [124]  [2]  [🔲 Todo]
-- [ ] [Musician 4]  [150]  [2]  [🔲 Todo]
-- [ ] [Musician 5]  [150]  [2]  [🔲 Todo]
-- [ ] [Musician 6]  [150]  [2]  [🔲 Todo]
+- [ ] [Musician 1]  [124] [domain:: Artist [2]  [🔲 Todo]
+- [ ] [Musician 2]  [124] [domain:: Artist [2]  [🔲 Todo]
+- [ ] [Musician 3]  [124] [domain:: Artist [2]  [🔲 Todo]
+- [ ] [Musician 4]  [150] [domain:: Artist [2]  [🔲 Todo]
+- [ ] [Musician 5]  [150] [domain:: Artist [2]  [🔲 Todo]
+- [ ] [Musician 6]  [150] [domain:: Artist [2]  [🔲 Todo]
 
 ### Story 6 — [Art ในเกม]
 
-- [ ] [BG]  [150]  [3]  [🔄 In Progress]
-- [ ] [dmg bar]  [124]  [3]  [🔄 In Progress]
-- [ ] [ui]  [150]  [3]  [🔄 In Progress]
-- [ ] [note]  [124]  [3]  [🔄 In Progress]
+- [ ] [BG]  [150] [domain:: Artist [3]  [🔄 In Progress]
+- [ ] [dmg bar]  [124] [domain:: Artist [3]  [🔄 In Progress]
+- [ ] [ui]  [150]  [3] [domain:: Artist [🔄 In Progress]
+- [ ] [note]  [124] [domain:: Artist [3]  [🔄 In Progress]
 
 ---
 
