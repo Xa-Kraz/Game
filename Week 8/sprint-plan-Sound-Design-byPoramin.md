@@ -6,7 +6,7 @@
 
 <!-- Sprint 2-4 ในแลปถัดไป: คัดลอกไฟล์นี้ทั้งไฟล์ไปสร้าง sprint-plan-02.md, sprint-plan-03.md, sprint-plan-04.md ตามลำดับ -->
 
-# Sprint [1] Plan
+# Sprint [4] Plan
 
 **Sprint Goal:** [ทำ First Sound/Music Prototype]
 **ระยะเวลา:** [31/08/2569] — [13/09/2569]
