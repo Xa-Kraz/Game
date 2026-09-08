@@ -8,10 +8,40 @@
     ".NETCoreApp,Version=v8.0": {
       "Prototype/1.0.0": {
         "dependencies": {
+          "MonoGame.Extended": "6.1.1",
+          "MonoGame.Extended.Content.Pipeline": "6.1.1",
           "MonoGame.Framework.DesktopGL": "3.8.5.1"
         },
         "runtime": {
           "Prototype.dll": {}
+        }
+      },
+      "Autofac/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "MonoGame.Extended/6.1.1": {
+        "runtime": {
+          "lib/net8.0/MonoGame.Extended.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
+        }
+      },
+      "MonoGame.Extended.Content.Pipeline/6.1.1": {
+        "dependencies": {
+          "Autofac": "5.2.0",
+          "MonoGame.Extended": "6.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/MonoGame.Extended.Content.Pipeline.dll": {
+            "assemblyVersion": "6.1.1.0",
+            "fileVersion": "6.1.1.0"
+          }
         }
       },
       "MonoGame.Framework.DesktopGL/3.8.5.1": {
@@ -135,6 +165,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Autofac/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8dBH0dsv75uDzl7Sw+HkhKDPUw2eXnlMjcSVMH+tLo2s67MpTKGyDj1pDcpR+IF2u4YRs0s3/x7R88YJzIWvg==",
+      "path": "autofac/5.2.0",
+      "hashPath": "autofac.5.2.0.nupkg.sha512"
+    },
+    "MonoGame.Extended/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CDY8JLjxGEl0d92mKLIBOtqqJG86+R+YhIf9aLOQxMIx+3VpO5TujBmBMJIRXZg8ua7o5/r5zs3n1CLbCvtdOg==",
+      "path": "monogame.extended/6.1.1",
+      "hashPath": "monogame.extended.6.1.1.nupkg.sha512"
+    },
+    "MonoGame.Extended.Content.Pipeline/6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EpE8SchTMJoRNGlN1CHA7pQifXQw6vTktVS7Ae2tPRgHZM55+Zo8w4m5MxB0k9XZrvNGkNNnxwDFymgVb/EZQA==",
+      "path": "monogame.extended.content.pipeline/6.1.1",
+      "hashPath": "monogame.extended.content.pipeline.6.1.1.nupkg.sha512"
     },
     "MonoGame.Framework.DesktopGL/3.8.5.1": {
       "type": "package",

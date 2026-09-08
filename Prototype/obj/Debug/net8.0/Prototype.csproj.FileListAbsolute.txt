@@ -34,3 +34,8 @@ C:\Users\HP\source\repos\Prototype\Prototype\obj\Debug\net8.0\refint\Prototype.d
 C:\Users\HP\source\repos\Prototype\Prototype\obj\Debug\net8.0\Prototype.pdb
 C:\Users\HP\source\repos\Prototype\Prototype\obj\Debug\net8.0\Prototype.genruntimeconfig.cache
 C:\Users\HP\source\repos\Prototype\Prototype\obj\Debug\net8.0\ref\Prototype.dll
+C:\Users\HP\source\repos\Prototype\Prototype\obj\Debug\net8.0\Prototype.sourcelink.json
+C:\Users\HP\source\repos\Prototype\Prototype\bin\Debug\net8.0\Autofac.dll
+C:\Users\HP\source\repos\Prototype\Prototype\bin\Debug\net8.0\MonoGame.Extended.dll
+C:\Users\HP\source\repos\Prototype\Prototype\bin\Debug\net8.0\MonoGame.Extended.Content.Pipeline.dll
+C:\Users\HP\source\repos\Prototype\Prototype\bin\Debug\net8.0\Content\Arseky.xnb

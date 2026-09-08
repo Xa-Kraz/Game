@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37EF326A-BB4E-46B9-9787-FF98BD99E4A0}|Prototype\\Prototype.csproj|c:\\users\\hp\\source\\repos\\prototype\\prototype\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37EF326A-BB4E-46B9-9787-FF98BD99E4A0}|Prototype\\Prototype.csproj|solutionrelative:prototype\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|c:\\users\\hp\\source\\repos\\prototype\\prototype\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|solutionrelative:prototype\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|c:\\users\\hp\\source\\repos\\prototype\\prototype\\steptick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|solutionrelative:prototype\\steptick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|c:\\users\\hp\\source\\repos\\prototype\\prototype\\content\\content.mgcb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|solutionrelative:prototype\\content\\content.mgcb||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|c:\\users\\hp\\source\\repos\\prototype\\prototype\\prototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BBD4F2E-2264-BD36-65C9-5FCE2E579B7B}|Prototype\\Prototype.csproj|solutionrelative:prototype\\prototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Content.mgcb",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Content\\Content.mgcb",
+              "RelativeDocumentMoniker": "Prototype\\Content\\Content.mgcb",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Content\\Content.mgcb",
+              "RelativeToolTip": "Prototype\\Content\\Content.mgcb",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-07T17:11:04.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Steptick.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Steptick.cs",
+              "RelativeDocumentMoniker": "Prototype\\Steptick.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Steptick.cs",
+              "RelativeToolTip": "Prototype\\Steptick.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T15:48:35.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Prototype.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Prototype.csproj",
+              "RelativeDocumentMoniker": "Prototype\\Prototype.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Prototype.csproj",
+              "RelativeToolTip": "Prototype\\Prototype.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T15:45:45.848Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +73,7 @@
               "RelativeDocumentMoniker": "Prototype\\Game1.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Prototype\\Prototype\\Game1.cs",
               "RelativeToolTip": "Prototype\\Game1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBYAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAowPEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-19T14:23:01.33Z",
               "EditorCaption": ""
