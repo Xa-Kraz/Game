@@ -6,24 +6,24 @@
 
 <!-- Sprint 2-4 ในแลปถัดไป: คัดลอกไฟล์นี้ทั้งไฟล์ไปสร้าง sprint-plan-02.md, sprint-plan-03.md, sprint-plan-04.md ตามลำดับ -->
 
-# Sprint [N] Plan
+# Sprint [1] Plan
 
-**Sprint Goal:** [เป้าหมายหลักของ Sprint นี้ คือ ทำตามที่วางแผนประมาณ 80%]
-**ระยะเวลา:** [วันที่เริ่ม] — [วันที่สิ้นสุด]
+**Sprint Goal:** [ทำ First Sound/Music Prototype]
+**ระยะเวลา:** [31/08/2569] — [13/09/2569]
 **Team:** [105 124 126 149 150]
 
 ---
 
 ## Sprint Backlog
 
-| # | User Story                                                  | รับผิดชอบ | MoSCoW    | Estimate (SP) | Status         |
-| - | ----------------------------------------------------------- | ------------------ | --------- | ------------- | -------------- |
-| 1 | ระบบนับจังหวะ 8 ช่องแบบเมโทรโนม | [105 149 ]        | Must Have | 3             | 🔄 In Progress |
-| 2 | ระบบดันคะแนนที่อิงจาก 8 ช่อง       | [105 149 ]        | Must Have | 2             | 🔄 In Progress |
-| 3 | การวางตัวละคร                                  | [105 149 ]         | Must Have | 4             | 🔄 In Progress |
-| 4 | Asset Sound & Music                                         | [ 126 ]            | Must Have | 4             | 🔄 In Progress |
-| 5 | Sprite ของนักดนตรี(ตัวละคร)               | [124 126 150]     | Must Have | 2             | 🔄 In Progress |
-| 6 | Art ในเกม                                              | [124 150]         | Must Have | 3             | 🔄 In Progress |
+| # | User Story                                                                                                                                      | รับผิดชอบ | MoSCoW    | Estimate (SP) | Status         |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | --------- | ------------- | -------------- |
+| 1 | ทดลองดีไซน์ทำเสียง 8bit ของเครื่องดนตรีที่เลือกไว้แล้ว                                          | [ 126 ]            | Must Have | 5             | ✅ Done        |
+| 2 | สร้าง Prototype Motif ของแต่ละเครื่องดนตรี                                                                             | [ 126 ]            | Must Have | 7             | ✅ Done        |
+| 3 | Test Motif ทำให้ Prototype Motif เป็น First Playable                                                                                   | [ 126 ]            | Must Have | 7             | ✅ Done        |
+| 4 | ผสมและปรับ First Playable Motif ของแต่ละเครื่องดนตรีเข้าเป็นด้วยกันเริ่มจากทีละคู่ | [ 126 ]            | Must Have | 9             | 🔲 Todo        |
+| 5 | นำ Duo Motif มา + กับ Duo Motif ที่ทำมา ทำเป็น Quater Motif                                                                 | [ 126 ]            | Must Have | 10            | 🔄 In Progress |
+| 6 | ทำ Final Motif สำหรับทุกเครื่องดนตรีที่นำมารวมกันแล้วเวิร์ค                                       | [ 126 ]            | Must Have | 10            | 🔄 In Progress |
 
 ## Status Legend
 
