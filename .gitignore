@@ -1,3 +1,11 @@
+# ==========================================
+# Personal IDE & Temp (Added by Member)
+# ==========================================
+bin/
+obj/
+.vs/
+*.user
+*.suogit
 ### Windows
 # Windows thumbnail cache files
 Thumbs.db
