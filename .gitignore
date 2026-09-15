@@ -6,3 +6,21 @@ obj/
 .vs/
 *.user
 *.suogit
+### Windows
+# Windows thumbnail cache files
+Thumbs.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+bin/
+obj/
+Content/bin/
+Content/obj/
+*.mgcontent
