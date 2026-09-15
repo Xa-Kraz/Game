@@ -10,6 +10,14 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# ==========================================
+# Personal IDE & Temp (Added by Member)
+# ==========================================
+bin/
+obj/
+.vs/
+*.user
 # ==========================================
 # MonoGame Build Outputs (Added by Dev Lead)
 # ==========================================
