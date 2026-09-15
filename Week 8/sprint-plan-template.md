@@ -67,9 +67,9 @@
 
 ### Story 5 — [Sprite ของนักดนตรี(ตัวละคร)]
 
-- [ ] [Musician 1]  [124]  [2]  [🔲 Todo]
-- [ ] [Musician 2]  [124]  [2]  [🔲 Todo]
-- [ ] [Musician 3]  [124]  [2]  [🔲 Todo]
+- [ ] [Musician 1] [domain::artist] [124]  [estimate::2]  [status::🔲 Todo]
+- [ ] [Musician 2] [domain::artist] [124]  [estimate::2]  [status::🔲 Todo]
+- [ ] [Musician 3] [domain::artist] [124]  [estimate::2]  [status::🔲 Todo]
 - [ ] [Musician 4]  [150]  [2]  [🔲 Todo]
 - [ ] [Musician 5]  [150]  [2]  [🔲 Todo]
 - [ ] [Musician 6]  [150]  [2]  [🔲 Todo]
@@ -77,9 +77,9 @@
 ### Story 6 — [Art ในเกม]
 
 - [ ] [BG]  [150]  [3]  [🔄 In Progress]
-- [ ] [dmg bar]  [124]  [3]  [🔄 In Progress]
+- [ ] [dmg bar] [domain::artist] [124]  [estimate::3]  [status::🔄 In Progress]
 - [ ] [ui]  [150]  [3]  [🔄 In Progress]
-- [ ] [note]  [124]  [3]  [🔄 In Progress]
+- [ ] [note] [domain::artist] [124]  [3]  [🔄 In Progress]
 
 ---
 
